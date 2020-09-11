@@ -1,0 +1,24 @@
+{
+  "name": "wtr-custom-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wtr \"test/**/*.test.js\" --node-resolve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LarsDenBakker/wtr-custom-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LarsDenBakker/wtr-custom-server/issues"
+  },
+  "homepage": "https://github.com/LarsDenBakker/wtr-custom-server#readme",
+  "devDependencies": {
+    "@esm-bundle/chai": "^4.1.5",
+    "@web/test-runner": "^0.7.21",
+    "koa": "^2.13.0"
+  }
+}
